@@ -23,11 +23,11 @@
         />
 
     <Button
-        android:id="@+id/graphsBtn"
+        android:id="@+id/barBtn"
         android:layout_width="200sp"
         android:layout_height="80sp"
         android:gravity="center"
-        android:text="Graph View"
+        android:text="bar View"
         android:textAllCaps="false"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,11 +39,11 @@
 
 
     <Button
-        android:id="@+id/graphInfoBtn"
+        android:id="@+id/pieBtn"
         android:layout_width="200sp"
         android:layout_height="80sp"
         android:gravity="center"
-        android:text="Graph Info"
+        android:text="Pie View"
         android:textAllCaps="false"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"

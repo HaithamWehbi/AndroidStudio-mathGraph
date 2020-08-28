@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class RadarGraph extends AppCompatActivity {
+public class MyPieView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_radar_graph);
+        setContentView(R.layout.activity_my_pie_view);
     }
 }

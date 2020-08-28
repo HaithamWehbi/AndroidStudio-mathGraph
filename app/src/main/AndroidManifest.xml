@@ -9,9 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".GraphView"></activity>
-        <activity android:name=".GraphInfo" />
-        <activity android:name=".RadarGraph" />
+        <activity android:name=".MyPieView"></activity>
+        <activity android:name=".MyBarView" />
         <activity android:name=".PieGraph" />
         <activity android:name=".BarGraph" />
         <activity android:name=".MainActivity">
