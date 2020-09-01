@@ -7,10 +7,11 @@
     android:padding="10dp"
     tools:context=".MyBarView">
 
+
     <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barGraph"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/barGraph"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

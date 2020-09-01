@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".BarGraph">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:gravity="center_horizontal"
+        android:text="Type X , Y and save up to 10 pairs.\n\nClick on View Graph button before adding any numbers to check example."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
 
     <EditText
         android:layout_width="100sp"
@@ -16,13 +32,12 @@
         android:textColor="@android:color/black"
         android:gravity="center"
         android:inputType="numberDecimal"
-        android:text="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.3"
-        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintVertical_bias="0.35"
         />
 
     <EditText
@@ -31,7 +46,6 @@
         android:id="@+id/yET"
         android:textSize="18sp"
         android:hint="y"
-        android:text="0"
         android:inputType="numberDecimal"
         android:textColor="@android:color/black"
         android:gravity="center"
@@ -40,8 +54,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.7"
-        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintVertical_bias="0.35"
         />
+
+    <EditText
+        android:layout_width="250sp"
+        android:layout_height="70sp"
+        android:id="@+id/labelET"
+        android:textSize="18sp"
+        android:hint="label name"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.45"
+        />
+
 
     <Button
         android:id="@+id/barInfoBtn"
@@ -57,5 +88,37 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintVertical_bias="0.8" />
+
+    <Button
+        android:id="@+id/saveBarBtn"
+        android:layout_width="125sp"
+        android:layout_height="80sp"
+        android:gravity="center"
+        android:text="Save X , Y"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <Button
+        android:id="@+id/resetBarBtn"
+        android:layout_width="125sp"
+        android:layout_height="80sp"
+        android:gravity="center"
+        android:text="Reset X , Y"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintVertical_bias="0.65" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,6 +7,74 @@
     tools:context=".PieGraph">
 
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:gravity="center_horizontal"
+        android:text="Type your Value , Label and save up to 10 pairs.\n\nClick on View Graph button before adding any pairs to check example."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+
+    <EditText
+        android:layout_width="100sp"
+        android:layout_height="70sp"
+        android:id="@+id/valueET"
+        android:textSize="18sp"
+        android:hint="value"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintVertical_bias="0.35"
+        />
+
+
+    <EditText
+        android:layout_width="200sp"
+        android:layout_height="70sp"
+        android:id="@+id/labelET"
+        android:textSize="18sp"
+        android:hint="label name"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintVertical_bias="0.35"
+        />
+
+    <EditText
+        android:layout_width="200sp"
+        android:layout_height="70sp"
+        android:id="@+id/pieNameET"
+        android:textSize="18sp"
+        android:hint="Pie name"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintVertical_bias="0.45"
+        />
+
+
     <Button
         android:id="@+id/pieInfoBtn"
         android:layout_width="200sp"
@@ -20,6 +88,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.85" />
+
+    <Button
+        android:id="@+id/savePieBtn"
+        android:layout_width="150sp"
+        android:layout_height="80sp"
+        android:gravity="center"
+        android:text="Save\nValue , Label"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <Button
+        android:id="@+id/resetPieBtn"
+        android:layout_width="150sp"
+        android:layout_height="80sp"
+        android:gravity="center"
+        android:text="Reset\nValue , Label"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintVertical_bias="0.65" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
