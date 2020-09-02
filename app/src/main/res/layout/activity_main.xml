@@ -10,10 +10,10 @@
     <TextView
         android:layout_width="300sp"
         android:layout_height="100sp"
-        android:text="Welcome To Math Graphs!"
+        android:text="Welcome To Analytics Graph!"
         android:gravity="center"
         android:textColor="@android:color/white"
-        android:background="@color/colorPrimaryDark"
+        android:background="@drawable/round"
         android:textSize="20sp"
         android:elevation="10sp"
         android:padding="10sp"
